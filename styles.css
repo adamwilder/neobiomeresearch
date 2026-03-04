@@ -362,17 +362,18 @@ ul  { list-style: none; }
   border-color: var(--sage);
 }
 
-/* Step buttons — outlined, slightly smaller */
+/* Step buttons — filled, aligned with primary CTA */
 .btn-step {
   margin-top: 1rem;
-  background: transparent;
-  color: var(--forest);
-  border: 1px solid var(--moss);
+  background: var(--forest);
+  color: var(--ivory);
+  box-shadow: var(--shadow-btn);
   font-size: 0.78rem;
 }
 .btn-step:hover {
-  background: rgba(201, 217, 196, 0.28);
-  border-color: var(--sage);
+  background: var(--olive);
+  transform: translateY(-1px);
+  box-shadow: 0 5px 22px rgba(60, 94, 60, 0.25);
 }
 
 .btn-ext {
